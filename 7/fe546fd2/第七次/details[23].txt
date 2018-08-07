@@ -1,0 +1,19 @@
+Time:1524752283800:New Request:From (3,3) to (0,0)
+Called Taxi List:
+Num:96 Position:(2,6) State:wfs Credit:7
+Num:98 Position:(3,1) State:wfs Credit:18
+Num:10 Position:(6,7) State:wfs Credit:5
+Time:1524752286900:The request is processed by N0.98 taxi.
+Time:1524752287300:NO.98 Taxi Called From (3,0) to (2,0)
+Time:1524752287500:NO.98 Taxi Called From (2,0) to (2,1)
+Time:1524752287700:NO.98 Taxi Called From (2,1) to (2,2)
+Time:1524752287900:NO.98 Taxi Called From (2,2) to (2,3)
+Time:1524752288100:NO.98 Taxi Called From (2,3) to (3,3)
+Time:1524752288100:NO.98 Taxi Approach the start point
+Time:1524752289300:NO.98 Taxi Service:From (3,3) to (2,3)
+Time:1524752289500:NO.98 Taxi Service:From (2,3) to (1,3)
+Time:1524752289700:NO.98 Taxi Service:From (1,3) to (1,2)
+Time:1524752289900:NO.98 Taxi Service:From (1,2) to (1,1)
+Time:1524752290100:NO.98 Taxi Service:From (1,1) to (0,1)
+Time:1524752290300:NO.98 Taxi Service:From (0,1) to (0,0)
+Time:1524752290300:NO.98 Taxi Approach the destination

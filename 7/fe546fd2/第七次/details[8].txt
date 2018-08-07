@@ -1,0 +1,26 @@
+Time:1524752006400:New Request:From (10,20) to (21,21)
+Called Taxi List:
+Num:98 Position:(13,22) State:wfs Credit:1
+Time:1524752009500:The request is processed by N0.98 taxi.
+Time:1524752009900:NO.98 Taxi Called From (12,22) to (12,21)
+Time:1524752010100:NO.98 Taxi Called From (12,21) to (11,21)
+Time:1524752010300:NO.98 Taxi Called From (11,21) to (10,21)
+Time:1524752010500:NO.98 Taxi Called From (10,21) to (10,20)
+Time:1524752010500:NO.98 Taxi Approach the start point
+Time:1524752011700:NO.98 Taxi Service:From (10,20) to (10,21)
+Time:1524752011900:NO.98 Taxi Service:From (10,21) to (11,21)
+Time:1524752012100:NO.98 Taxi Service:From (11,21) to (12,21)
+Time:1524752012300:NO.98 Taxi Service:From (12,21) to (12,22)
+Time:1524752012500:NO.98 Taxi Service:From (12,22) to (13,22)
+Time:1524752012700:NO.98 Taxi Service:From (13,22) to (13,21)
+Time:1524752012900:NO.98 Taxi Service:From (13,21) to (14,21)
+Time:1524752013100:NO.98 Taxi Service:From (14,21) to (14,22)
+Time:1524752013300:NO.98 Taxi Service:From (14,22) to (15,22)
+Time:1524752013500:NO.98 Taxi Service:From (15,22) to (16,22)
+Time:1524752013700:NO.98 Taxi Service:From (16,22) to (16,21)
+Time:1524752013900:NO.98 Taxi Service:From (16,21) to (17,21)
+Time:1524752014100:NO.98 Taxi Service:From (17,21) to (18,21)
+Time:1524752014300:NO.98 Taxi Service:From (18,21) to (19,21)
+Time:1524752014500:NO.98 Taxi Service:From (19,21) to (20,21)
+Time:1524752014700:NO.98 Taxi Service:From (20,21) to (21,21)
+Time:1524752014700:NO.98 Taxi Approach the destination

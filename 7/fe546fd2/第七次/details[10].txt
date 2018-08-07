@@ -1,0 +1,10 @@
+Time:1524752078700:New Request:From (20,20) to (21,21)
+Called Taxi List:
+Num:51 Position:(21,22) State:wfs Credit:5
+Time:1524752081900:The request is processed by N0.51 taxi.
+Time:1524752082100:NO.51 Taxi Called From (21,21) to (20,21)
+Time:1524752082300:NO.51 Taxi Called From (20,21) to (20,20)
+Time:1524752082300:NO.51 Taxi Approach the start point
+Time:1524752083500:NO.51 Taxi Service:From (20,20) to (20,21)
+Time:1524752083700:NO.51 Taxi Service:From (20,21) to (21,21)
+Time:1524752083700:NO.51 Taxi Approach the destination

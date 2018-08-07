@@ -1,0 +1,29 @@
+Time:1524752036700:New Request:From (20,10) to (21,21)
+Called Taxi List:
+Num:51 Position:(17,10) State:wfs Credit:1
+Num:57 Position:(22,8) State:wfs Credit:1
+Time:1524752039800:The request is processed by N0.51 taxi.
+Time:1524752040000:NO.51 Taxi Called From (17,11) to (18,11)
+Time:1524752040200:NO.51 Taxi Called From (18,11) to (18,12)
+Time:1524752040400:NO.51 Taxi Called From (18,12) to (19,12)
+Time:1524752040600:NO.51 Taxi Called From (19,12) to (20,12)
+Time:1524752040800:NO.51 Taxi Called From (20,12) to (20,11)
+Time:1524752041000:NO.51 Taxi Called From (20,11) to (20,10)
+Time:1524752041000:NO.51 Taxi Approach the start point
+Time:1524752042200:NO.51 Taxi Service:From (20,10) to (20,11)
+Time:1524752042400:NO.51 Taxi Service:From (20,11) to (20,12)
+Time:1524752042600:NO.51 Taxi Service:From (20,12) to (19,12)
+Time:1524752042800:NO.51 Taxi Service:From (19,12) to (19,13)
+Time:1524752043000:NO.51 Taxi Service:From (19,13) to (19,14)
+Time:1524752043200:NO.51 Taxi Service:From (19,14) to (19,15)
+Time:1524752043400:NO.51 Taxi Service:From (19,15) to (19,16)
+Time:1524752043600:NO.51 Taxi Service:From (19,16) to (18,16)
+Time:1524752043800:NO.51 Taxi Service:From (18,16) to (18,17)
+Time:1524752044000:NO.51 Taxi Service:From (18,17) to (18,18)
+Time:1524752044200:NO.51 Taxi Service:From (18,18) to (18,19)
+Time:1524752044400:NO.51 Taxi Service:From (18,19) to (18,20)
+Time:1524752044600:NO.51 Taxi Service:From (18,20) to (19,20)
+Time:1524752044800:NO.51 Taxi Service:From (19,20) to (19,21)
+Time:1524752045000:NO.51 Taxi Service:From (19,21) to (20,21)
+Time:1524752045200:NO.51 Taxi Service:From (20,21) to (21,21)
+Time:1524752045200:NO.51 Taxi Approach the destination

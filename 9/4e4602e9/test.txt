@@ -1,0 +1,15 @@
+#No 9 Test File#
+
+#map
+#end_map
+
+#flow
+(0,0),(0,1),70
+#end_flow
+
+#taxi
+#end_taxi
+
+#request
+(50,50),(50,50)
+#end_request

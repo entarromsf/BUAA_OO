@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="taxi.Car" x="93" y="328">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="taxi.Map" endpointName="ma" kind="Simple"/>
+        <Communication destinationClassName="taxi.Map"/>
+        <Communication destinationClassName="taxi.TaxiGUI"/>
+    </Class>
+    <Class name="taxi.Map" x="283" y="346">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="taxi.Dispatch" x="74" y="126">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="taxi.Car" endpointName="cars" kind="Simple"/>
+        <Association destinationClassName="taxi.Map" endpointName="ma" kind="Simple"/>
+        <Association destinationClassName="taxi.RequestQue"
+            endpointName="rq" kind="Simple"/>
+        <Communication destinationClassName="taxi.Car"/>
+        <Communication destinationClassName="taxi.RequestQue"/>
+    </Class>
+    <Class name="taxi.Main" x="309" y="25">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="taxi.TaxiGUI"
+            endpointName="gui" kind="Simple"/>
+        <Communication destinationClassName="taxi.Car"/>
+        <Communication destinationClassName="taxi.Map"/>
+        <Communication destinationClassName="taxi.TaxiGUI"/>
+    </Class>
+    <Class name="taxi.TaxiGUI" x="476" y="12">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="taxi.Request" x="605" y="198">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="taxi.Requestadd" x="473" y="340">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="taxi.RequestQue"
+            endpointName="req" kind="Simple"/>
+        <Communication destinationClassName="taxi.TaxiGUI"/>
+        <Communication destinationClassName="taxi.Request"/>
+        <Communication destinationClassName="taxi.RequestQue"/>
+    </Class>
+    <Class name="taxi.RequestQue" x="418" y="140">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>

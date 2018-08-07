@@ -1,0 +1,22 @@
+input			(FR, 3, DOWN, 0)
+				(FR, 1, UP, 1)
+				(ER, 1, 2147483647)
+				(ER, 6, 4294967295)
+				RUN
+output	        (3,UP,1.0)
+				(1,DOWN,3.0)
+				(1,STILL,2147483648.0)
+				(6,UP,4294967297.5)
+
+input			
+                (FR,1,UP,0)
+                (FR,1,UP,1)
+				(FR,1,UP,2)
+				(FR,1,UP,3)
+				(FR,1,UP,4)
+				RUN
+output			(1,STILL,1.0)
+				#同类请求
+				(1,STILL,3.0)
+				#同类请求
+				(1,STILL,5.0)

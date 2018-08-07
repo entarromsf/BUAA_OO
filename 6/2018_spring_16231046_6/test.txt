@@ -1,0 +1,4 @@
+IF,E:\test\b\a.txt,size-changed,THEN,record-summary
+IF,E:\test\b\a.txt,Modified,THEN,record-detail
+IF,E:\test\b\d\a.txt,renamed,THEN,recover
+END

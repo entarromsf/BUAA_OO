@@ -1,0 +1,25 @@
+Time:1524751953200:New Request:From (20,10) to (21,21)
+Called Taxi List:
+Num:65 Position:(19,9) State:wfs Credit:1
+Time:1524751956400:The request is processed by N0.65 taxi.
+Time:1524751956600:NO.65 Taxi Called From (18,9) to (19,9)
+Time:1524751956800:NO.65 Taxi Called From (19,9) to (20,9)
+Time:1524751957000:NO.65 Taxi Called From (20,9) to (20,10)
+Time:1524751957000:NO.65 Taxi Approach the start point
+Time:1524751958200:NO.65 Taxi Service:From (20,10) to (20,11)
+Time:1524751958400:NO.65 Taxi Service:From (20,11) to (20,12)
+Time:1524751958600:NO.65 Taxi Service:From (20,12) to (19,12)
+Time:1524751958800:NO.65 Taxi Service:From (19,12) to (19,13)
+Time:1524751959000:NO.65 Taxi Service:From (19,13) to (19,14)
+Time:1524751959200:NO.65 Taxi Service:From (19,14) to (19,15)
+Time:1524751959400:NO.65 Taxi Service:From (19,15) to (19,16)
+Time:1524751959600:NO.65 Taxi Service:From (19,16) to (18,16)
+Time:1524751959800:NO.65 Taxi Service:From (18,16) to (18,17)
+Time:1524751960000:NO.65 Taxi Service:From (18,17) to (18,18)
+Time:1524751960200:NO.65 Taxi Service:From (18,18) to (18,19)
+Time:1524751960400:NO.65 Taxi Service:From (18,19) to (18,20)
+Time:1524751960600:NO.65 Taxi Service:From (18,20) to (19,20)
+Time:1524751960900:NO.65 Taxi Service:From (19,20) to (19,21)
+Time:1524751961100:NO.65 Taxi Service:From (19,21) to (20,21)
+Time:1524751961300:NO.65 Taxi Service:From (20,21) to (21,21)
+Time:1524751961300:NO.65 Taxi Approach the destination

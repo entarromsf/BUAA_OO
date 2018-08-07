@@ -1,0 +1,20 @@
+---------TRIGGER---------
+oldfile:
+path: E:\TextFile\a\a_a\a_newdir\newfile1.txt
+size: 0
+modified: 1533279875738
+newfile:
+path: E:\TextFile\a\a_a\a_newdir\newfile1.txt
+size: 1
+modified: 1533279904193
+-----------END-----------
+---------TRIGGER---------
+oldfile:
+path: E:\TextFile\a\a_a\a_newdir\newfile2.txt
+size: 0
+modified: 1533279893470
+newfile:
+path: E:\TextFile\a\a_a\a_newdir\newfile2.txt
+size: 1
+modified: 1533279907835
+-----------END-----------

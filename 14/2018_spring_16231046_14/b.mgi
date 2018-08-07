@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="top.buaaoo.main.Elevator" x="196" y="60"/>
+    <CommunicationClass name="top.buaaoo.main.expHandler" x="569" y="38"/>
+    <CommunicationClass name="top.buaaoo.main.Controler_incidentally"
+        x="399" y="278">
+        <Extension destinationClassName="top.buaaoo.main.Controler_old"/>
+        <Communication destinationClassName="top.buaaoo.main.Floor"/>
+        <Communication destinationClassName="top.buaaoo.main.Input"/>
+    </CommunicationClass>
+    <CommunicationClass name="top.buaaoo.main.Floor" x="229" y="136"/>
+    <CommunicationClass name="top.buaaoo.main.Controler_old" x="344" y="63">
+        <Communication destinationClassName="top.buaaoo.main.Elevator"/>
+        <Communication destinationClassName="top.buaaoo.main.Floor"/>
+        <Communication destinationClassName="top.buaaoo.main.Input"/>
+    </CommunicationClass>
+    <CommunicationClass name="top.buaaoo.main.Request" x="801" y="114"/>
+    <CommunicationClass name="top.buaaoo.main.Input" x="620" y="116">
+        <Communication destinationClassName="top.buaaoo.main.expHandler"/>
+        <Communication destinationClassName="top.buaaoo.main.Request"/>
+    </CommunicationClass>
+    <CommunicationClass name="top.buaaoo.main.main" x="751" y="265">
+        <Communication destinationClassName="top.buaaoo.main.Controler_incidentally"/>
+        <Communication destinationClassName="top.buaaoo.main.Input"/>
+    </CommunicationClass>
+</ClassDiagram>

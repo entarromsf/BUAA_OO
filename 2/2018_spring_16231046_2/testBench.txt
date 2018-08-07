@@ -1,0 +1,72 @@
+正确输入
+input:
+(FR,4,DOWN,0)
+(ER,6,10)
+(ER,10,10)
+(FR,10,DOWN,10)
+(ER,5,12)
+RUN
+output:
+(4,UP,1.5)
+(6,UP,11.0)
+(10,UP,14.0)
+(10,STILL,16.0)
+(5,DOWN,18.5)
+
+过滤空格
+input:
+( FR, 4 ,D  OW N ,0) 
+    (E R,  6, 1 0)
+ (E R,  1 0,   10)  
+(F R  ,10  ,DO W N,1 0)
+(ER,5 , 12)
+R UN
+output:
+(4,UP,1.5)
+(6,UP,11.0)
+(10,UP,14.0)
+(10,STILL,16.0)
+(5,DOWN,18.5)
+
+合法的时间
+input:
+(ER,5,0)
+(FR,9,UP,4294967295)
+RUN
+output:
+(5,UP,2.0)
+(9,UP,4294967297.0)
+
+非法输入
+input:
+(FR,11,UP,0)         不合法的楼层
+(6FR,1,UP,0)         不可识别的字符
+(FR,9,UP,0.0)        不合法的时间（小数）
+(FR,9,UP,4294967296) 不合法的时间（过大）
+(FR,9,UP,-1)         不合法的时间（负数）
+(FR,9,UP,2147)       不合法的时间（首个时间非0）
+(FR,10,UP,0)         十层上行
+(FR,1,DOWN,4)        一层下行
+
+同层同质请求
+input:
+(FR,5,UP,0)
+(FR,5,UP,3)
+RUN
+output:
+(5,UP,2.0)
+#It's a repeated request.
+
+同层不同质请求
+input:
+(FR,3,UP,0)
+(FR,3,DOWN,0)
+(ER,3,0)
+RUN
+output:
+(3,UP,1.0)
+(3,STILL,3.0)
+(3,STILL,4.0)
+
+
+
